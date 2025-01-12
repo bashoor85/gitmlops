@@ -1,0 +1,19 @@
+git init
+git add README.md
+git commit -m "first commit"
+git status
+git branch
+git branch -M main
+git remote add origin "https://github.com/bashoor85/gitmlops.git
+git status
+git remove -v
+git push origin main
+
+----
+authentication will be prompted through browser
+if any file added then "git add ." 
+Otherwise git add <file.name> if the existing file updated
+-----
+
+git add .
+
