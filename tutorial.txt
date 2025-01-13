@@ -16,4 +16,47 @@ Otherwise git add <file.name> if the existing file updated
 -----
 
 git add .
+git commit -m "this is my second commit" # to move to the stage environment
+git remote -v
+git push origin main
+
+-----
+if you want to copy git repository to local folder, go to local folder 
+and execute
+
+git clone "https://github.com/bashoor85/gitmlops.git"
+
+-------
+
+To unstage a file
+git restore --staged "<file>"
+git reset "<file>"
+
+git add .
+git status
+
+-----
+to check if anything in staging environment
+git diff --staged
+git push origin main
+
+---------
+to create a branch and move to branch
+git branch
+git branch developer
+git checkout developer
+git branch
+
+git add .
+git commit -m "this is the new story i am working as developer"
+
+git checkout main
+git merge developer
+
+git push origin main
+
+
+
+
+
 
